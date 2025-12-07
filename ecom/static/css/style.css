@@ -1,0 +1,35 @@
+body{
+    background-color: grey;
+}
+
+nav{
+    background-color: brown;
+    color: white;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+}
+
+nav a{
+    padding: 10px;
+    color: white;
+
+}
+
+.product_info{
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: white;
+    text-overflow: inherit;
+    display: inline-block;
+}
+
+footer{
+    margin-top:5px;
+    padding:10px 0;
+    border-top: 1px solid black;
+    text-align: center;
+}
