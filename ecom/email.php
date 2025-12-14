@@ -14,7 +14,7 @@
          $mail->isSMTP();
          $mail->Host       = 'smtp.gmail.com';       // Gmail SMTP server
          $mail->SMTPAuth   = true;
-         $mail->Username   = 'pokharelanmol123@gmail.com'; // Fixed: Removed duplicate @gmail.com
+         $mail->Username   = 'bipulmandal03333@gmail.com'; // Fixed: Removed duplicate @gmail.com
          $mail->Password   = 'sbhuarecxrnbsgnd';       // Your Gmail App Password
          $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // TLS encryption
          $mail->Port       = 587;
@@ -31,8 +31,8 @@
 
 
          // Recipients
-         $mail->setFrom('pokharelanmol123@gmail.com', 'sender name');
-         $mail->addAddress('pokharelanmol123@gmail.com', 'receiver name');
+         $mail->setFrom('bipulmandal03333@gmail.com', 'sender name');
+         $mail->addAddress('notd2256@gmail.com', 'receiver name');
 
          // Content
          $mail->isHTML(false); // Plain text
@@ -45,4 +45,5 @@
          echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
      }
      ?>
+
      
